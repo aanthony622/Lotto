@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lotto Number Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Lotto Number Generator</h1>
+    <p>Generate 5 random numbers between <strong>1 and 70</strong>, and a single number between <strong>1 and 20</strong>.</p>
+
+    <div class="card">
+      <button id="generate-button">Generate Numbers</button>
+
+      <section class="output">
+        <div>
+          <h2>5 Numbers</h2>
+          <div id="five-numbers" class="numbers">--</div>
+        </div>
+
+        <div>
+          <h2>Single Number</h2>
+          <div id="single-number" class="number">--</div>
+        </div>
+      </section>
+
+      <p class="note">Click the button again to re-generate the numbers in a new random sequence.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
