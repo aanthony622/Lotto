@@ -9,6 +9,8 @@ A simple static web app that generates:
 
 Open `index.html` in your browser, or serve the folder from a local web server.
 
+> Note: This branch includes a dev-only update to demonstrate a pull request workflow.
+
 ## Files
 
 - `index.html` — app UI
